@@ -3,14 +3,14 @@
   --bg-primary-active: #69b1ff;
   --bg-danger: #ff4d4f;
   --bg-danger-active: #ffa39e;
-  --bg-waring: #faad14;
-  --bg-waring-active: #ffd666;
+  --bg-warning: #faad14;
+  --bg-warning-active: #ffd666;
   --bg-success: #52c41a;
   --bg-success-active: #95de64;
   --bg-container: #d6eaf8;
   --color-dark: #222;
   --color-light: #fff;
-  --btn-shadown: 0 2px 0 rgb(5 145 255 / 10%);
+  --btn-shadow: 0 2px 0 rgb(5 145 255 / 10%);
   --btn-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   --btn-border-radius-sm: 4px;
   --btn-border-radius: 6px;
@@ -60,7 +60,7 @@ body {
 
 .btn {
   border-radius: var(--btn-border-radius);
-  box-shadow: var(--btn-shadown);
+  box-shadow: var(--btn-shadow);
   padding: var(--btn-padding);
   font-size: var(--btn-font-size);
   cursor: pointer;
@@ -112,11 +112,11 @@ body {
 }
 
 .btn-warning {
-  background-color: var(--bg-waring);
+  background-color: var(--bg-warning);
 }
 
 .btn-warning:active {
-  outline: 3px solid var(--bg-waring-active);
+  outline: 3px solid var(--bg-warning-active);
 }
 
 .btn-danger {
