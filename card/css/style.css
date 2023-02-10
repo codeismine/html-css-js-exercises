@@ -37,13 +37,10 @@ body {
 }
 
 .container > .card > .card-description {
-  /* add limit text */
   display: -webkit-box;
   -webkit-line-clamp: 5;
-  line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 @media only screen and (max-width: 1024px) {
