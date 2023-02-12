@@ -1,3 +1,3 @@
-# DEMO
+# Spin Outside Loader
 
 Hello World...
