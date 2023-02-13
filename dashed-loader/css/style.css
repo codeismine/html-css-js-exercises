@@ -23,8 +23,8 @@ body {
 .container > .loader {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   border: 16px dashed #3498db;
+  border-radius: 50%;
   animation: loader 2s linear infinite;
 }
 
