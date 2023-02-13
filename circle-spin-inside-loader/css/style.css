@@ -24,8 +24,8 @@ body {
   position: relative;
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   border: 6px solid #f3f3f3;
+  border-radius: 50%;
   animation: spin 1s linear infinite;
 }
 
