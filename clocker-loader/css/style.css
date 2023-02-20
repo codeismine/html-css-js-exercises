@@ -33,10 +33,10 @@ body {
   content: "";
   position: absolute;
   left: 50%;
-  top: 0px;
-  background-color: #3498db;
+  top: 0;
   width: 4px;
   height: 60px;
+  background-color: #3498db;
   transform: translateX(-50%);
 }
 
